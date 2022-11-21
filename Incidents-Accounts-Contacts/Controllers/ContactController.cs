@@ -24,7 +24,7 @@ namespace Incidents_Accounts_Contacts.Controllers
             }
             catch
             {
-                return BadRequest("Contact with such id already exists");
+                return BadRequest("Contact with such email already exists");
             }
         }
     }
